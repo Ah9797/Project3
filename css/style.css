@@ -2,8 +2,8 @@ body {
   background-color: #00ffff;
 }
 @media screen and (max-width: 800px) {
-  body {
-	
+  #face {
+	margin-left: 0;
   }
 }
 @media screen and (min-width: 500px) {
