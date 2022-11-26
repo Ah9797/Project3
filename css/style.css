@@ -1,6 +1,16 @@
 body {
   background-color: #00ffff;
 }
+@media screen and (max-width: 800px) {
+  body {
+	
+  }
+}
+@media screen and (min-width: 500px) {
+  body {
+	
+  }
+}
 h1 {
   margin: 1em;
   text-align: center;
