@@ -2,15 +2,15 @@ body {
   background-color: #00ffff;
 }
 @media (max-width: 800px) {
-  #face {
-	float: left;
-	margin-right: 0em;
+  h2 {
+	  text-align: center;
+  }
+  h3 {
+	  text-align: center;
   }
 }
-@media(min-width: 500px) {
-  body {
-	
-  }
+@media (max-width: 500px) {
+  
 }
 h1 {
   margin: 1em;
@@ -33,6 +33,7 @@ section {
 }
 #face {
   float: right;
+  margin-top: 5em;
 }
 #nav-bar {
   background-color: #808080;
