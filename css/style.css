@@ -13,8 +13,14 @@ body {
   }
 }
 @media (max-width: 600px) {
-  h2, h3, p {
-	font-size: 150%;
+  h2 {
+	font-size: 150%
+  }
+  h3 {
+	font-size: 140%
+  }
+  p {
+	font-size: 130%;
   }
   #sudoku {
 	width: 150px;
