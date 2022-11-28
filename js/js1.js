@@ -1,11 +1,5 @@
-function init(){
-
 function Picclick(){
-  var picture = document.getElementById('sudoku');
-  picture.setAttribute(src, 'image/sudoku_solved')
-  
+  var picture = document.getElementById('sudoku').src="image/sudoku_solved.png";
   }
-var b = document.getElementById('sudoku');
+var b = document.getElementById('solutions');
 b.addEventListener('click', Picclick);
-}
-window.addEventListener('load', init);
