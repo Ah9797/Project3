@@ -3,14 +3,16 @@ body {
 }
 @media (max-width: 800px) {
   h2 {
-	  text-align: center;
+	text-align: center;
   }
   h3 {
-	  text-align: center;
+	text-align: center;
   }
 }
 @media (max-width: 500px) {
-  
+  h2, h3, p {
+	font-size: 150%;
+  }
 }
 h1 {
   margin: 1em;
