@@ -1,17 +1,26 @@
 body {
   background-color: #00ffff;
 }
-@media (max-width: 800px) {
+@media (min-width: 1000px) {
   h2 {
 	text-align: center;
   }
   h3 {
 	text-align: center;
   }
+  #web {
+	width: 400px;
+  }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   h2, h3, p {
 	font-size: 150%;
+  }
+  #sudoku {
+	width: 150px;
+  }
+  #web {
+	width: 200px
   }
 }
 h1 {
@@ -77,8 +86,6 @@ button {
   text-align: center;
 }
 #sudoku {
-  width: 150px;
-  height: 150px;
   border-color: #000;
   border: 3px;
   border-style: solid;
