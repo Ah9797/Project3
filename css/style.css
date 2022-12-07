@@ -67,6 +67,7 @@ button {
   border-color: #000;
   border: 3px;
   border-style: solid;
+  width: 300px;
 }
 #map {
   height: 400px;
@@ -83,6 +84,9 @@ button {
   #web {
 	width: 200px;
   }
+  #sudoku {
+  width: 600px;
+}
 }
 @media (min-width: 1000px) {
   h2 {
