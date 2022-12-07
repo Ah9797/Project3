@@ -1,34 +1,6 @@
 body {
   background-color: #00ffff;
 }
-@media (min-width: 1000px) {
-  h2 {
-	text-align: center;
-  }
-  h3 {
-	text-align: center;
-  }
-  #web {
-	width: 400px;
-  }
-}
-@media (max-width: 600px) {
-  h2 {
-	font-size: 150%
-  }
-  h3 {
-	font-size: 140%
-  }
-  p {
-	font-size: 130%;
-  }
-  #sudoku {
-	width: 150px;
-  }
-  #web {
-	width: 200px
-  }
-}
 h1 {
   margin: 1em;
   text-align: center;
@@ -95,4 +67,34 @@ button {
   border-color: #000;
   border: 3px;
   border-style: solid;
+}
+#map {
+  height: 240px;
+  width: 100%;
+}
+
+@media (min-width: 1000px) {
+  h2 {
+	text-align: center;
+  }
+  h3 {
+	text-align: center;
+  }
+  #web {
+	width: 400px;
+  }
+}
+@media (min-width: 600px) {
+  h2 {
+	font-size: 150%
+  }
+  h3 {
+	font-size: 140%
+  }
+  p {
+	font-size: 130%;
+  }
+  #web {
+	width: 200px
+  }
 }
