@@ -73,7 +73,7 @@ button {
   width: 100%;
 }
 
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
   h2 {
 	text-align: center;
   }
@@ -81,10 +81,10 @@ button {
 	text-align: center;
   }
   #web {
-	width: 400px;
+	width: 200px;
   }
 }
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
   h2 {
 	font-size: 150%
   }
@@ -95,6 +95,6 @@ button {
 	font-size: 130%;
   }
   #web {
-	width: 200px
+	width: 400px
   }
 }
